@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-bar-button{
+    @apply text-xl bg-slate-200 p-2 rounded hover:bg-slate-800 hover:text-slate-50 duration-700 hover:p-3 ;
+}
+.router-link-active{
+    @apply bg-slate-600 text-slate-200 shadow-xl hover:bg-slate-800;
+}
+.router-link-exact-active {
+    @apply bg-slate-800 text-slate-200 shadow-xl hover:bg-slate-700;
+}
+
+
+@layer base{
+   h1{
+    @apply text-4xl font-bold;
+   }
+   h3{
+    @apply text-xl font-bold;
+   }
+}
